@@ -2,11 +2,13 @@ package com.phoebussoftware.technicalTest.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.phoebussoftware.technicalTest.DTO.AccountDTO;
 import com.phoebussoftware.technicalTest.model.AccountEntity;
 import com.phoebussoftware.technicalTest.repository.AccountRepository;
 
+@Service
 public class AccountService implements AccountServiceInterface{
 
 	@Autowired
